@@ -1,0 +1,12 @@
+# Azure Functions Core
+azure-functions
+
+# PDF Generation (same as original code)
+weasyprint>=60.0
+
+# WeasyPrint dependencies
+Pillow>=10.0.0
+cffi>=1.15.0
+pycparser>=2.21
+cssselect2>=0.7.0
+tinycss2>=1.2.0

@@ -1,0 +1,24 @@
+{
+  "name": "html-to-pdf-azure",
+  "version": "1.0.0",
+  "description": "HTML to PDF converter using Python + WeasyPrint on Azure Static Web Apps",
+  "scripts": {
+    "start": "swa start public --api-location api",
+    "build": "echo 'No build step needed for static HTML'",
+    "test": "python test_api.py",
+    "deploy": "swa deploy"
+  },
+  "keywords": [
+    "html-to-pdf",
+    "weasyprint",
+    "azure",
+    "static-web-apps",
+    "python",
+    "serverless"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.1.0"
+  }
+}
