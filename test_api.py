@@ -69,8 +69,6 @@ def test_pdf_conversion(base_url="http://localhost:7071"):
         <div class="section">
             <div class="section-title">About This Test</div>
             <div class="content">
-                <p>This PDF was generated using the <strong>exact same code</strong> as in:</p>
-                <p><code>streamlit_app/ui/download_components.py</code></p>
                 <p>The conversion uses <strong>WeasyPrint</strong> to render HTML with full CSS support.</p>
             </div>
         </div>
@@ -98,7 +96,7 @@ def test_pdf_conversion(base_url="http://localhost:7071"):
                     </tr>
                     <tr>
                         <td>Frontend</td>
-                        <td>HTML + JavaScript</td>
+                        <td>HTML + JavaScript + Milligram Framework</td>
                     </tr>
                     <tr>
                         <td>Backend</td>

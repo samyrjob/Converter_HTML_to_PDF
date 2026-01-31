@@ -30,3 +30,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+#md files
+DEPLOYMENT.md
+PROJECT_SUMMARY.md
+quickstart.bat
+quickstart.sh
+test_api.py
